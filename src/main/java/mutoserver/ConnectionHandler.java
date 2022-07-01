@@ -97,7 +97,7 @@ public class ConnectionHandler extends Thread {
 	}
 
 	private void proceed() throws UnsupportedEncodingException, IOException, NullPointerException {
-		System.out.println("YAY IT WORKED!!!");
+		//System.out.println("YAY IT WORKED!!!");
 		InputStreamReader isr = new InputStreamReader(soc.getInputStream(), "UTF-8");
 		BufferedReader in = new BufferedReader(isr);
 		OutputStreamWriter osw = new OutputStreamWriter(soc.getOutputStream(), "UTF-8");
